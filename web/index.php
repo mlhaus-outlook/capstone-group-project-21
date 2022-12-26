@@ -13,7 +13,7 @@ $dotenv->safeLoad();
     <title>PHP Test</title>
 </head>
 <body>
-<h1>Hello World!</h1>
+<h1>Hello World</h1>
 <?php echo "<p>" . str_repeat('Hello ', $_ENV['TIMES']) . "</p>\n"; ?>
 </body>
 </html>
